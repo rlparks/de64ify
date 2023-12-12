@@ -9,7 +9,7 @@
 
     "description": "Decodes selected text using Base 64. If the resulting text is a link, opens it in a new tab.",
 
-    "permissions": ["activeTab", "contextMenus", "clipboardWrite"],
+    "permissions": ["activeTab", "contextMenus", "clipboardWrite", "notifications"],
 
     "background": {
         "scripts": ["background.js"],

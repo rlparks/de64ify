@@ -16,7 +16,11 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
                 browser.tabs.create({ url: decodedText });
             }
         } catch (err) {
-            alert("Selection is not Base 64 encoded");
+            browser.notifications.create({
+                type: "basic",
+                message: "Selection is not Base 64 encoded",
+                title: "de64ify",
+            });
         }
     }
 });
