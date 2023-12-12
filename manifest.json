@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "de64ify",
+    "version": "0.1",
+    "icons": {
+        "256": "icons/lock-open.png"
+    },
+
+    "description": "Decodes selected text using Base 64. If the resulting text is a link, opens it in a new tab.",
+
+    "permissions": ["activeTab", "contextMenus", "clipboardWrite"],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
