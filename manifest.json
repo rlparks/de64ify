@@ -1,10 +1,11 @@
 {
     "manifest_version": 2,
     "name": "de64ify",
-    "version": "0.1",
+    "version": "1.0",
     "icons": {
         "256": "icons/lock-open.png"
     },
+    "homepage_url": "https://github.com/rlparks/de64ify",
 
     "description": "Decodes selected text using Base 64. If the resulting text is a link, opens it in a new tab.",
 
